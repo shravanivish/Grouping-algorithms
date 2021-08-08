@@ -27,3 +27,22 @@ const animals = [
 	{ type: "cat", breed: "mud" },
 ];
 log(reGroup(animals, "type"));
+
+// output:
+//  {
+//   audi: [ { model: 'r8', year: '2012' }, { model: 'rs5', year: '2013' } ],
+//   ford: [
+//     { model: 'mustang', year: '2012' },
+//     { model: 'fusion', year: '2015' }
+//   ],
+//   kia: [ { model: 'optima', year: '2012' } ]
+// }
+// {
+//   dog: [
+//     { breed: 'puddle' },
+//     { breed: 'labradoodle' },
+//     { breed: 'french bulldog' }
+//   ],
+//   cat: [ { breed: 'siamese' }, { breed: 'mud' } ]
+// }
+
