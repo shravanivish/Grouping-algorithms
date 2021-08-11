@@ -64,6 +64,24 @@ console.log(result);
 // ]
 
 
+// continue for output of only properties
+
+const finalResult = {};
+for (let o of result) {
+	finalResult[o._id] = o.count;
+}
+console.log(finalResult);
+
+// output:
+// {
+//   'Whatsapp Share': 2,
+//   'Facebook Share': 2,
+//   'Clicked on Save as pdf': 3,
+//   'Tweet': 3,
+//   'Mail Share': 1
+// }
+
+
 
 // Alogorithm 2
 
@@ -92,3 +110,18 @@ console.log(result);
 //   { Id: '003', qty: 4 } 
 // ]
 
+
+// continue for output of only properties
+
+const finalResult = {};
+for (let o of result) {
+	finalResult[o.Id] = o.qty;
+}
+console.log(finalResult);
+
+// output:
+// { 
+// '001': 3, 
+// '002': 2, 
+// '003': 4 
+// }
