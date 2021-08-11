@@ -46,7 +46,7 @@ let a = [
 const result = [];
 a.reduce(function (res, value) {
 	if (!res[value._id]) {
-		res[value._id] = { Id: value._id, count: 0 };
+		res[value._id] = { _id: value._id, count: 0 };
 		result.push(res[value._id]);
 	}
 	res[value._id].count += value.count;
