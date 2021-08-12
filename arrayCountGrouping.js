@@ -1,4 +1,4 @@
-// Alogorithm 1
+// Algorithm 1
 
 let a = [
 	{
@@ -67,8 +67,8 @@ console.log(result);
 // continue for output of only properties
 
 const finalResult = {};
-for (let o of result) {
-	finalResult[o._id] = o.count;
+for (let i of result) {
+	finalResult[i._id] = i.count;
 }
 console.log(finalResult);
 
@@ -83,7 +83,7 @@ console.log(finalResult);
 
 
 
-// Alogorithm 2
+// Algorithm 2
 
 const arr = [
 	{ Id: "001", qty: 1 },
@@ -114,8 +114,8 @@ console.log(result);
 // continue for output of only properties
 
 const finalResult = {};
-for (let o of result) {
-	finalResult[o.Id] = o.qty;
+for (let i of result) {
+	finalResult[i.Id] = i.qty;
 }
 console.log(finalResult);
 
